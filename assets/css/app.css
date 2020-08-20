@@ -1,4 +1,7 @@
 /* GENERAL */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #101010;
@@ -26,6 +29,19 @@ h1, h2, h3, h4, h5, h6, label {
     padding-top: 50em;
 }
 
+
+/* NAVBAR */
+
+.navbar {
+    background: #2b3443 !important;
+
+}
+
+/* FOOTER */
+
+.footer {
+    background: #2b3443 !important;
+}
 
 /* JUMBOTRON */
 
