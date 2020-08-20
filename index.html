@@ -44,34 +44,34 @@
     <div class="container text-center text-light">
       <h1 class="display-4">Julio & Bento</h1>
       <h2 class="h3">Développeurs Ruby on Rails</h2>
-      <button type="button" class="btn btn-primary btn-lg m-3">Nos projets</button>
-      <button type="button" class="btn btn-secondary btn-lg  m-3">Nous contacter</button>
+      <a type="button" href="#projets" class="btn btn-primary btn-lg m-3">Nos projets</a>
+      <a type="button" href="#contact" class="btn btn-secondary btn-lg  m-3">Nous contacter</a>
     </div>
   </div>
 </section>
 
 <div class="container" id="content"> <!-- begin .container -->
   <!-- DESCRIPTION -->
-  <div class="row justify-content-center">
+  <div class="row justify-content-center" id="description">
     <div class="col-3">
-      <h3>Full-Remote</h3>
-      <p>
+      <h3 class="text-center">Full-Remote</h3>
+      <p class="text-justify">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices vitae urna tempus viverra.
         Vestibulum dictum enim ut porta dapibus. Vivamus pharetra sagittis fringilla.
       </p>
     </div>
 
     <div class="col-3">
-      <h3>Full-Remote</h3>
-      <p>
+      <h3 class="text-center">Fléxibles</h3>
+      <p class="text-justify">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices vitae urna tempus viverra.
         Vestibulum dictum enim ut porta dapibus. Vivamus pharetra sagittis fringilla.
       </p>
     </div>
 
     <div class="col-3">
-      <h3>Full-Remote</h3>
-      <p>
+      <h3 class="text-center">Persévérants</h3>
+      <p class="text-justify">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices vitae urna tempus viverra.
         Vestibulum dictum enim ut porta dapibus. Vivamus pharetra sagittis fringilla.
       </p>
@@ -81,57 +81,71 @@
   <!-- PROJECTS -->
   <h2 class="display-4 text-center" id="projets">PROJETS</h2>
 
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src= assets/img/monka1.jpg  alt="Image Monka Project" height="150" width="180">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">The Monka Project</h5>
-          <p class="card-text">Monka project est un projet open-source destiné à faciliter la facturation pour les auto-entrepreneurs</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <div class="d-flex justify-content-center">
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="img" src= assets/img/monka1.jpg  alt="Image Monka Project">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">The Monka Project</h5>
+            <p class="card-text">Monka project est un projet open-source destiné à faciliter la facturation pour les auto-entrepreneurs</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src= assets/img/cykl.png  alt="Image Monka Project" height="150" width="180">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Cykl</h5>
-          <p class="card-text">Cykl est une application éditée par we are the words sprl, une société d'optimisation de contenu SEO basée en Belgique à Bruxelle. Nous intervenons sur la partie back-end de l'application afin de la rendre commercialisable à l'horizon 2021</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <div class="d-flex justify-content-center">
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src= assets/img/cykl.png  alt="Image Monka Project" height="150" width="180">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Cykl</h5>
+            <p class="card-text">Cykl est une application éditée par we are the words sprl, une société d'optimisation de contenu SEO basée en Belgique à Bruxelle. Nous intervenons sur la partie back-end de l'application afin de la rendre commercialisable à l'horizon 2021</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- CONTACT FORM -->
+</div>
+</div>
 
-  <h2 class="display-4 text-center" id="contact">CONTACT</h2>
+<!-- HIRE US -->
+<h2 class="display-4 text-center" id="hire_us">HIRE US</h2>
 
-  <div class="row justify-content-center contact">
-    <div class="col-6">
-      <form>
-        <div class="mb-3">
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse email">
-        </div>
-        <div class="mb-3">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Saisissez votre message..."></textarea>
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <div class="text-center">
-          <button type="submit" class="btn btn-outline-primary">Envoyer</button>
-        </div>
-      </form>
-    </div>
+<div class="row">
+
+</div>
+
+<!-- CONTACT FORM -->
+
+<h2 class="display-4 text-center" id="contact">CONTACT</h2>
+
+<div class="row justify-content-center contact">
+  <div class="col-6">
+    <form>
+      <div class="mb-3">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse email">
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Saisissez votre message..."></textarea>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">En soumettant ce formulaire, j'accepte que les informations saisies soient utilisées dans le cadre d'une demande d'informations et de la relation commerciale qui pourrait en découler. </label>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-outline-primary">Envoyer</button>
+      </div>
+    </form>
   </div>
+</div>
 
 
 </div> <!-- end .container -->

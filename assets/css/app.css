@@ -1,4 +1,7 @@
 /* GENERAL */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #101010;
@@ -9,7 +12,7 @@ p, a {
     color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label {
     color: white;
 }
 
@@ -27,6 +30,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* NAVBAR */
+
+.navbar {
+    background: #2b3443 !important;
+
+}
+
+/* FOOTER */
+
+.footer {
+    background: #2b3443 !important;
+}
+
 /* JUMBOTRON */
 
 .jumbotron {
@@ -39,8 +55,21 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+/* UTILITIES */
+
+.text-justify {
+    text-align: justify;
+}
+
 /* CARDS */
 
 .card-title, .card-text {
 color: black;
 }
+
+.img {
+    margin-top: 10px;
+    height: 50%;
+    width: 100%;
+}
+
