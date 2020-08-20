@@ -14,6 +14,7 @@ p, a {
 
 h1, h2, h3, h4, h5, h6, label {
     color: white;
+    font-family: "DejaVu Sans Mono"
 }
 
 .display-4 {
@@ -28,7 +29,9 @@ h1, h2, h3, h4, h5, h6, label {
 #content {
     padding-top: 50em;
 }
-
+.description {
+    font-family: "DejaVu Sans Mono", "Helvetica";
+}
 
 /* NAVBAR */
 
@@ -53,6 +56,7 @@ h1, h2, h3, h4, h5, h6, label {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "DejaVu Sans Mono"
 }
 
 /* UTILITIES */
@@ -64,14 +68,10 @@ h1, h2, h3, h4, h5, h6, label {
 /* CARDS */
 
 .card-title, .card-text {
-color: black;
-}
+    color: black;
+    font-family: "DejaVu Sans Mono" ;
 
-/*.img {*/
-/*    margin-top: 10px;*/
-/*    height: 50%;*/
-/*    width: 100%;*/
-/*}*/
+}
 
 
 .card{
@@ -91,9 +91,18 @@ color: black;
 
 .card img{
     position: absolute;
+    justify-content: flex-end;
     border-radius: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
     left: 2px;
     max-height: 150px;
 }
+
+.card-text {
+    text-align: justify;
+    margin-left: 15px;
+
+}
+
 
