@@ -53,6 +53,18 @@ h1, h2, h3, h4, h5, h6, label {
     background-color: #101010 !important;
 }
 
+.navbar a:hover {
+    text-decoration: none;
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.logo {
+    font-size: 2em;
+}
+
 /* FOOTER */
 
 .footer {
@@ -64,13 +76,14 @@ h1, h2, h3, h4, h5, h6, label {
 .jumbotron {
     width: 100%;
     height: 700px;
-    background-image: url(../img/jumbotron.jpeg);
+    background-image: url(../img/jumbotronlayer.jpeg);
     position : absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "DejaVu Sans Mono"
 }
+
 
 /* UTILITIES */
 
