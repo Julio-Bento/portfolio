@@ -14,13 +14,11 @@
 </head>
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <div class="container-fluid">
     <!--    <span class="navbar-brand text-gradient logo">Julio & Bento</span>-->
     <div class="neon">
-      <p class="neon-text">
-        Julio <span class="first">&</span> Bento
-      </p>
+      <p class="neon-text">Julio <span class="first">&</span> Bento</p>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -31,16 +29,16 @@
           <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#accueil">NOS PROJETS</a>
+          <a class="nav-link" href="#projects">NOS PROJETS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projets">NOTRE EQUIPE</a>
+          <a class="nav-link" href="#team">NOTRE EQUIPE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projets">NOS TALENTS</a>
+          <a class="nav-link" href="#skills">NOS TALENTS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">NOUS RECRUTER</a>
+          <a class="nav-link" href="#hire">NOUS RECRUTER</a>
         </li>
       </ul>
     </div>
@@ -49,154 +47,157 @@
 
 
 <!-- JUMBOTRON -->
-<section>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container text-center text-light">
-      <div>
-        <h2 class="h3">Parce que deux développeurs valent mieux qu’un.</h2>
-        <a href="#projets" class="m-3">
-          <button class="btn-hover color-1">NOS PROJETS</button>
-        </a>
-        <a href="#contact" class="m-3">
-          <button class="btn-hover color-8">NOUS RECRUTER</button>
-        </a>
-      </div>
+<section class="jumbotron jumbotron-fluid mt-5">
+  <div class="container text-center text-light">
+    <div>
+      <h2 class="h3">Parce que deux développeurs valent mieux qu’un.</h2>
+      <a href="#projets" class="m-3">
+        <button class="btn-hover color-1">NOS PROJETS</button>
+      </a>
+      <a href="#contact" class="m-3">
+        <button class="btn-hover color-8">NOUS RECRUTER</button>
+      </a>
     </div>
   </div>
 </section>
 
 <div class="container" id="content"> <!-- begin .container -->
 
-  <div class="row mb-5">
-    <p class="lead text-center">
-      Développeurs Ruby on Rails, nous vous accompagnons dans la réalisation de vos projets web, de la mise en place d’un site vitrinne à un site e-commerce,
-      d’un site vitrine Wordpress ou d’une application web complète en Ruby on Rails.
-    </p>
-  </div>
-
   <!-- DESCRIPTION -->
-  <div class="row justify-content-around align-items-center" id="description">
-    <div class="col-3">
-      <div class="title">
-        <h3 class="text-center">Full-Remote</h3>
+  <section id="description">
+    <div class="row mb-5">
+      <p class="lead text-center">
+        Développeurs Ruby on Rails, nous vous accompagnons dans la réalisation de vos projets web, de la mise en place d’un site vitrinne à un site e-commerce,
+        d’un site vitrine Wordpress ou d’une application web complète en Ruby on Rails.
+      </p>
+    </div>
+
+    <div class="row justify-content-around align-items-center">
+      <div class="col-3">
+        <div class="title">
+          <h3 class="text-center">Full-Remote</h3>
+        </div>
+        <div class="js1">
+          <p class="text-justify" id="d1">
+            L’informatique abolit les distances physique et nous permet de profiter d’un confort de vivre accru
+            pour vous offrir plus de confiance, de  flexibilité et d’engagement.
+          </p>
+        </div>
+        <div class="js1">
+          <img src="assets/img/undraw_design_components.png" alt="" class="mt-4">
+        </div>
       </div>
-      <div class="js1">
-        <p class="text-justify" id="d1">
-          L’informatique abolit les distances physique et nous permet de profiter d’un confort de vivre accru
-          pour vous offrir plus de confiance, de  flexibilité et d’engagement.
-        </p>
+      <div class="col-3">
+        <div class="js2">
+          <img src="assets/img/undraw_Invite.png" alt="" class="mb-4">
+        </div>
+        <div class="title">
+          <h3 class="text-center">Fléxibles</h3>
+        </div>
+        <div class="js2">
+          <p class="text-justify" id="d2">
+            Parce que nous comprenons la vie d’un projet, nous nous adaptons à vos contraintes et n’hésitons pas à répondre présent pour traiter vos urgences.
+          </p>
+        </div>
       </div>
-      <div class="js1">
-        <img src="assets/img/undraw_design_components.png" alt="" class="mt-4">
+      <div class="col-3">
+        <div class="title">
+          <h3 class="text-center">Innovant</h3>
+        </div>
+        <div class="js3">
+          <p class="text-justify" id="d3">
+            Nous saurons réaliser votre projet, quelle que soit votre localisation.
+            Du rêve à la réalité : Nous excellons particulièrement dans la concrétisation de vos idées,
+            même les plus farfelues, pour les transformer en projets et produits innovants.
+          </p>
+        </div>
+        <div class="js3">
+          <img src="assets/img/undraw_server_cluster.png" alt="" class="mt-4">
+        </div>
       </div>
     </div>
-    <div class="col-3">
-      <div class="js2">
-        <img src="assets/img/undraw_Invite.png" alt="" class="mb-4">
-      </div>
-      <div class="title">
-        <h3 class="text-center">Fléxibles</h3>
-      </div>
-      <div class="js2">
-        <p class="text-justify" id="d2">
-          Parce que nous comprenons la vie d’un projet, nous nous adaptons à vos contraintes et n’hésitons pas à répondre présent pour traiter vos urgences.
-        </p>
-      </div>
-    </div>
-    <div class="col-3">
-      <div class="title">
-        <h3 class="text-center">Innovant</h3>
-      </div>
-      <div class="js3">
-        <p class="text-justify" id="d3">
-          Nous saurons réaliser votre projet, quelle que soit votre localisation.
-          Du rêve à la réalité : Nous excellons particulièrement dans la concrétisation de vos idées,
-          même les plus farfelues, pour les transformer en projets et produits innovants.
-        </p>
-      </div>
-      <div class="js3">
-        <img src="assets/img/undraw_server_cluster.png" alt="" class="mt-4">
-      </div>
-    </div>
-  </div>
+  </section>
 
   <!-- PROJECTS -->
-  <h2 class="display-4 text-center text-gradient" id="projets">NOS PROJETS</h2>
+  <section id="projects">
+    <h2 class="display-4 text-center text-gradient" id="projets">NOS PROJETS</h2>
 
-  <div class="row mb-5 align-items-center">
+    <div class="row mb-5 align-items-center">
 
-    <div class="col-6">
-      <img class="img-fluid rounded" src= assets/img/laptopmonka.png alt="Image Monka Project">
+      <div class="col-6">
+        <img class="img-fluid rounded" src= assets/img/laptopmonka.png alt="Image Monka Project">
+      </div>
+
+      <div class="col-5">
+        <h5 class="text-center mb-4">The Monka Project</h5>
+        <p class="card-text text-justify mb-2">
+          Monka project est un projet open-source destiné à faciliter la facturation pour les auto-entrepreneurs.
+          Toujours en cours de développement, il est régulièrement mis à jour entre deux missions
+        </p>
+        <div class="card-text mb-4">
+          <span class="badge rounded-pill bg-dark">Ruby on Rails</span>
+          <span class="badge rounded-pill bg-dark">Bootstrap 5</span>
+          <span class="badge rounded-pill bg-dark">Heroku</span>
+        </div>
+        <div class="text-center">
+          <a href="#" class="btn btn-outline-light">Voir le projet</a>
+        </div>
+      </div>
+
     </div>
 
-    <div class="col-5">
-      <h5 class="text-center mb-4">The Monka Project</h5>
-      <p class="card-text text-justify mb-2">
-        Monka project est un projet open-source destiné à faciliter la facturation pour les auto-entrepreneurs.
-        Toujours en cours de développement, il est régulièrement mis à jour entre deux missions
-      </p>
-      <div class="card-text mb-4">
-        <span class="badge rounded-pill bg-dark">Ruby on Rails</span>
-        <span class="badge rounded-pill bg-dark">Bootstrap 5</span>
-        <span class="badge rounded-pill bg-dark">Heroku</span>
+    <div class="row align-items-center">
+      <div class="col-5">
+        <h5 class="text-center mb-4">Cykl</h5>
+        <p class="card-text text-justify mb-2">
+          Cykl est une application éditée par we are the words sprl, une société d'optimisation de contenu SEO basée
+          en Belgique à Bruxelle. Nous intervenons sur la partie back-end de l'application afin de la rendre
+          commercialisable à l'horizon 2021
+        </p>
+        <div class="card-text mb-4">
+          <span class="badge rounded-pill bg-dark">Ruby on Rails</span>
+          <span class="badge rounded-pill bg-dark">Angular</span>
+          <span class="badge rounded-pill bg-dark">Heroku</span>
+        </div>
+        <div class="text-center">
+          <a href="#" class="btn btn-outline-light">Voir le projet</a>
+        </div>
       </div>
-      <div class="text-center">
-        <a href="#" class="btn btn-outline-light">Voir le projet</a>
+      <div class="col-6">
+        <img class="img-fluid rounded" src= assets/img/cykl2laptop.png  alt="Image Cykl Project">
       </div>
     </div>
+  </section>
 
-  </div>
-
-  <div class="row align-items-center">
-    <div class="col-5">
-      <h5 class="text-center mb-4">Cykl</h5>
-      <p class="card-text text-justify mb-2">
-        Cykl est une application éditée par we are the words sprl, une société d'optimisation de contenu SEO basée
-        en Belgique à Bruxelle. Nous intervenons sur la partie back-end de l'application afin de la rendre
-        commercialisable à l'horizon 2021
-      </p>
-      <div class="card-text mb-4">
-        <span class="badge rounded-pill bg-dark">Ruby on Rails</span>
-        <span class="badge rounded-pill bg-dark">Angular</span>
-        <span class="badge rounded-pill bg-dark">Heroku</span>
-      </div>
-      <div class="text-center">
-        <a href="#" class="btn btn-outline-light">Voir le projet</a>
-      </div>
-    </div>
-    <div class="col-6">
-      <img class="img-fluid rounded" src= assets/img/cykl2laptop.png  alt="Image Cykl Project">
-    </div>
-  </div>
   <!-- OUR TEAM -->
+  <section id="team">
+    <div class="title">
+      <h2 class="display-4 text-center text-gradient">NOTRE ÉQUIPE</h2>
+    </div>
 
-  <div class="title">
-    <h2 class="display-4 text-center text-gradient">NOTRE ÉQUIPE</h2>
-  </div>
-
-
-  <div class="bento">
-    <div class="row justify-content-center">
-      <div class="col-8">
-        <div class="card mb-5">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="assets/img/profil_pic_bento.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title text-center m-3">David Bento-Pereira</h5>
-                <p class="card-text text-justify m-4">
-                  <em>“Computer is not the thing, it’s the thing that gets you to the thing”</em> est ma citation préféré.
-                  Je vois l’informatique comme un outil au service de l’Humain et j’aurais à coeur de mettre mes
-                  compétences au service de votre projet. Revant de liberté, j’ai saisi l’opportunité de m’associer
-                  avec Julien pour  me lancer comme freelance.
-                </p>
-                <div class="social_networks--right">
-                  <a href="//www.malt.fr/profile/davidbentopereira" target="_blank"><img src="assets/img/logo_malt_round.png" alt="" class="m-2"></a>
-                  <a href="//www.linkedin.com/in/david-bento-pereira/" target="_blank"><img src="assets/img/logo_linkedin.png" alt="" class="m-2"></a>
-                  <a href="//github.com/davidBentoPereira" target="_blank"><img src="assets/img/logo_github.png" alt="" class="m-2"></a>
-                  <a href="//dev.to/bento" target="_blank"><img src="assets/img/logo_dev.to.png" alt="" class="m-2"></a>
+    <div class="bento">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <div class="card mb-5">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="assets/img/profil_pic_bento.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-center m-3">David Bento-Pereira</h5>
+                  <p class="card-text text-justify m-4">
+                    <em>“Computer is not the thing, it’s the thing that gets you to the thing”</em> est ma citation préféré.
+                    Je vois l’informatique comme un outil au service de l’Humain et j’aurais à coeur de mettre mes
+                    compétences au service de votre projet. Revant de liberté, j’ai saisi l’opportunité de m’associer
+                    avec Julien pour  me lancer comme freelance.
+                  </p>
+                  <div class="social_networks--right">
+                    <a href="//www.malt.fr/profile/davidbentopereira" target="_blank"><img src="assets/img/logo_malt_round.png" alt="" class="m-2"></a>
+                    <a href="//www.linkedin.com/in/david-bento-pereira/" target="_blank"><img src="assets/img/logo_linkedin.png" alt="" class="m-2"></a>
+                    <a href="//github.com/davidBentoPereira" target="_blank"><img src="assets/img/logo_github.png" alt="" class="m-2"></a>
+                    <a href="//dev.to/bento" target="_blank"><img src="assets/img/logo_dev.to.png" alt="" class="m-2"></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -204,134 +205,136 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="julio">
-    <div class="row justify-content-center">
-      <div class="col-8">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title text-center m-3">Julien Tribouillier</h5>
-                <p class="card-text text-justify m-4">
-                  Ancien commercial, je me suis reconverti dans l’informatique et plus spécifiquement dans le développement web
-                  pour vivre de ma passion. Ma rencontre avec David lors du bootcamp The Hacking Project fut le début d’une belle
-                  amitié et posa la première pierre de notre aventure de Freelance.
-                </p>
-                <div class="social_networks--left">
-                  <a href="//dev.to/" target="_blank"><img src="assets/img/logo_dev.to.png" alt="" class="m-2"></a>
-                  <a href="//github.com/Popikadir" target="_blank"><img src="assets/img/logo_github.png" alt="" class="m-2"></a>
-                  <a href="//www.linkedin.com/in/julien-tribouillier/" target="_blank"><img src="assets/img/logo_linkedin.png" alt="" class="m-2"></a>
-                  <a href="//www.malt.fr" target="_blank"><img src="assets/img/logo_malt_round.png" alt="" class="m-2"></a>
+    <div class="julio">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <div class="card">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-center m-3">Julien Tribouillier</h5>
+                  <p class="card-text text-justify m-4">
+                    Ancien commercial, je me suis reconverti dans l’informatique et plus spécifiquement dans le développement web
+                    pour vivre de ma passion. Ma rencontre avec David lors du bootcamp The Hacking Project fut le début d’une belle
+                    amitié et posa la première pierre de notre aventure de Freelance.
+                  </p>
+                  <div class="social_networks--left">
+                    <a href="//dev.to/" target="_blank"><img src="assets/img/logo_dev.to.png" alt="" class="m-2"></a>
+                    <a href="//github.com/Popikadir" target="_blank"><img src="assets/img/logo_github.png" alt="" class="m-2"></a>
+                    <a href="//www.linkedin.com/in/julien-tribouillier/" target="_blank"><img src="assets/img/logo_linkedin.png" alt="" class="m-2"></a>
+                    <a href="//www.malt.fr" target="_blank"><img src="assets/img/logo_malt_round.png" alt="" class="m-2"></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <img src="assets/img/pic_profile_julio.jpg" class="card-img" alt="...">
+              <div class="col-md-4">
+                <img src="assets/img/pic_profile_julio.jpg" class="card-img" alt="...">
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- OUR SKILLS -->
+  <section id="skills">
+    <div class="title">
+      <h2 class="display-4 text-center text-gradient">NOS TALENTS</h2>
+    </div>
 
-  <div class="title">
-    <h2 class="display-4 text-center text-gradient">NOS TALENTS</h2>
-  </div>
-
-  <div class="row justify-content-around">
-    <!-- Left Column -->
-    <div class="col-5">
-      <!-- Block Left Top -->
-      <div class="row align-items-center justify-content-end mb-4">
-        <div class="col-1 mr-4">
-          <img class="idea" src="assets/img/idea_bulb.png" alt="">
+    <div class="row justify-content-around">
+      <!-- Left Column -->
+      <div class="col-5">
+        <!-- Block Left Top -->
+        <div class="row align-items-center justify-content-end mb-4">
+          <div class="col-1 mr-4">
+            <img class="idea" src="assets/img/idea_bulb.png" alt="">
+          </div>
+          <div class="col-9">
+            <h5>Développement Web</h5>
+            <p class="text-justify">Site vitrine, site e-commerce, application web. Parlez-nous de votre projet.</p>
+          </div>
         </div>
-        <div class="col-9">
-          <h5>Développement Web</h5>
-          <p class="text-justify">Site vitrine, site e-commerce, application web. Parlez-nous de votre projet.</p>
+        <!-- Block Left Middle -->
+        <div class="row align-items-center justify-content-end mb-4">
+          <div class="col-1 mr-4">
+            <img class="idea" src="assets/img/idea_bulb.png" alt="">
+          </div>
+          <div class="col-9">
+            <h5>Intégration Web</h5>
+            <p class="text-justify">Nous donnons vie à vos maquettes, en respectant les standards du web HTML/CSS.</p>
+          </div>
+        </div>
+        <!-- Block Left Bottom -->
+        <div class="row align-items-center justify-content-end mb-4">
+          <div class="col-1 mr-4">
+            <img class="idea" src="assets/img/idea_bulb.png" alt="">
+          </div>
+          <div class="col-9">
+            <h5>Conception de MVP</h5>
+            <p class="text-justify">Vous avez une idée d’application web mais vous ne savez pas coder ? Nous lui donnerons vie pour vous.</p>
+          </div>
         </div>
       </div>
-      <!-- Block Left Middle -->
-      <div class="row align-items-center justify-content-end mb-4">
-        <div class="col-1 mr-4">
-          <img class="idea" src="assets/img/idea_bulb.png" alt="">
+
+      <!-- Right Column -->
+      <div class="col-5">
+        <!-- Block Left Top -->
+        <div class="row align-items-center justify-content-start mb-4">
+          <div class="col-1 mr-4">
+            <img class="idea" src="assets/img/idea_bulb.png" alt="">
+          </div>
+          <div class="col-9">
+            <h5>Base de Données</h5>
+            <p class="text-justify">Nous traduisons vos besoins métier pour concevoir votre base de données de A à Z.</p>
+          </div>
         </div>
-        <div class="col-9">
-          <h5>Intégration Web</h5>
-          <p class="text-justify">Nous donnons vie à vos maquettes, en respectant les standards du web HTML/CSS.</p>
+        <!-- Block Left Middle -->
+        <div class="row align-items-center justify-content-start mb-4">
+          <div class="col-1 mr-4">
+            <img class="idea" src="assets/img/idea_bulb.png" alt="">
+          </div>
+          <div class="col-9">
+            <h5>Responsive Design</h5>
+            <p class="text-justify">Nous développons pour une compatibilité sur tous les supports. Tablette/smartphone/Ordinateur.</p>
+          </div>
         </div>
-      </div>
-      <!-- Block Left Bottom -->
-      <div class="row align-items-center justify-content-end mb-4">
-        <div class="col-1 mr-4">
-          <img class="idea" src="assets/img/idea_bulb.png" alt="">
-        </div>
-        <div class="col-9">
-          <h5>Conception de MVP</h5>
-          <p class="text-justify">Vous avez une idée d’application web mais vous ne savez pas coder ? Nous lui donnerons vie pour vous.</p>
+        <!-- Block Left Bottom -->
+        <div class="row align-items-center justify-content-start mb-4">
+          <div class="col-1 mr-4">
+            <img class="idea" src="assets/img/idea_bulb.png" alt="">
+          </div>
+          <div class="col-9">
+            <h5>Back Office</h5>
+            <p class="text-justify">Outil indispensable à la bonne gestion d’un site web, nous concevons votre interface administration.</p>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- Right Column -->
-    <div class="col-5">
-      <!-- Block Left Top -->
-      <div class="row align-items-center justify-content-start mb-4">
-        <div class="col-1 mr-4">
-          <img class="idea" src="assets/img/idea_bulb.png" alt="">
-        </div>
-        <div class="col-9">
-          <h5>Base de Données</h5>
-          <p class="text-justify">Nous traduisons vos besoins métier pour concevoir votre base de données de A à Z.</p>
-        </div>
-      </div>
-      <!-- Block Left Middle -->
-      <div class="row align-items-center justify-content-start mb-4">
-        <div class="col-1 mr-4">
-          <img class="idea" src="assets/img/idea_bulb.png" alt="">
-        </div>
-        <div class="col-9">
-          <h5>Responsive Design</h5>
-          <p class="text-justify">Nous développons pour une compatibilité sur tous les supports. Tablette/smartphone/Ordinateur.</p>
-        </div>
-      </div>
-      <!-- Block Left Bottom -->
-      <div class="row align-items-center justify-content-start mb-4">
-        <div class="col-1 mr-4">
-          <img class="idea" src="assets/img/idea_bulb.png" alt="">
-        </div>
-        <div class="col-9">
-          <h5>Back Office</h5>
-          <p class="text-justify">Outil indispensable à la bonne gestion d’un site web, nous concevons votre interface administration.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
   <!-- HIRE US -->
+  <section id="hire">
+    <h2 class="display-4 text-center text-gradient" id="contact">NOUS RECRUTER</h2>
 
-  <h2 class="display-4 text-center text-gradient" id="contact">NOUS RECRUTER</h2>
+    <p class="lead text-center mb-5">Retrouvez-nous sur ces plateformes de Freelancing et proposez-nous votre projet</p>
 
-  <p class="lead text-center mb-5">Retrouvez-nous sur ces plateformes de Freelancing et proposez-nous votre projet</p>
-
-  <div class="row justify-content-center mb-4">
-    <!-- Malt Profile -->
-    <div class="col-4 text-center">
-      <a href="//www.malt.fr/profile/davidbentopereira" target="_blank">
-        <img src="assets/img/logo_malt.png" alt="Logo Lalt">
-      </a>
+    <div class="row justify-content-center mb-4">
+      <!-- Malt Profile -->
+      <div class="col-4 text-center">
+        <a href="//www.malt.fr/profile/davidbentopereira" target="_blank">
+          <img src="assets/img/logo_malt.png" alt="Logo Lalt">
+        </a>
+      </div>
+      <!-- Upwork Profile -->
+      <div class="col-4 text-center">
+        <a href="//www.upwork.com/freelancers/~01bc7eb64810734817" target="_blank">
+          <img src="assets/img/logo_upwork.png" alt="Logo Malt">
+        </a>
+      </div>
     </div>
-    <!-- Upwork Profile -->
-    <div class="col-4 text-center">
-      <a href="//www.upwork.com/freelancers/~01bc7eb64810734817" target="_blank">
-        <img src="assets/img/logo_upwork.png" alt="Logo Malt">
-      </a>
-    </div>
-  </div>
+  </section>
 
 </div> <!-- end .container -->
 
