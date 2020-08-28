@@ -12,7 +12,7 @@ This website is our personal portfolio, aiming at presenting our skills and proj
 
 This website was originally built from 24/08/2020 to 28/08/2020
 
-###  :squirrel: Who ?
+###  :octocat: Who ?
 
 - [Julien Tribouillier  :fire:](https://github.com/Popikadir)
 - [David Bento-Pereira  :godmode:](https://github.com/davidBentoPereira)
