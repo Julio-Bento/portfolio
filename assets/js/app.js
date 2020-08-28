@@ -1,3 +1,19 @@
+// Keep nav link active when clicked
+let link = document.querySelectorAll(".nav-link");
+let activeLink = document.querySelector("active")
+
+link.addEventListener('click', function() {
+    activeLink.removeAttribute("active")
+    this.addClass('active');
+});
+
+// $('#navContent a').click(function(){
+//     /* remove class from prior active link*/
+//     $('.activeLinkClass').removeClass('activeLinkClass');
+//     /* "this" is current link clicked*/
+//     $(this).addClass('activeLinkClass');
+// });
+
 // const sr = ScrollReveal({
 //     duration: 2000,
 //     distance: '120px',
