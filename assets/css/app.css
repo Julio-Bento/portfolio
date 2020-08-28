@@ -21,8 +21,7 @@ p, a, h1, h2, h3, h4, h5, h6, label {
 }
 
 .text-gradient {
-    background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #3494E6, #EC6EAD);
+    background: linear-gradient(to left, #f32170, #ff6b08, #cf23cf, #eedd44);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -66,17 +65,11 @@ p, a, h1, h2, h3, h4, h5, h6, label {
 
 .container.text-center.text-light { margin-top: 35em; }
 
+/**************************************/
+/*********** UTILITIES **************/
+/**********************************/
 
-/* UTILITIES */
-
-.text-justify {
-    text-align: justify;
-}
-
-.idea{
-    width: 70px;
-    height: 60px;
-}
+.text-justify { text-align: justify; }
 
 /*#d1{*/
 /*    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);*/
@@ -100,7 +93,9 @@ p, a, h1, h2, h3, h4, h5, h6, label {
 /*    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06)*/
 /*}*/
 
-/******* CARDS *********/
+/**************************************/
+/*********** CARDS ******************/
+/**********************************/
 
 .card {
     background-color: #f3ec78;
@@ -113,11 +108,6 @@ p, a, h1, h2, h3, h4, h5, h6, label {
 /*.card:hover {*/
 /*    box-shadow: 0 10px 28px #EC6EAD, 0 10px 10px #f3ec78;*/
 /*}*/
-
-.card-title, .card-text {
-    color: white;
-    font-family: "DejaVu Sans Mono" ;
-}
 
 .social_networks--right {
     position: absolute;
@@ -146,58 +136,13 @@ p, a, h1, h2, h3, h4, h5, h6, label {
 /*    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);*/
 /*}*/
 
-
-.project{
-    position: absolute;
-    justify-content: flex-end;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-top: 20px;
-    left: 2px;
-    max-height: 150px;
-}
-
-/*.card-text {*/
-/*    text-align: justify;*/
-/*    margin-left: 15px;*/
-
-/*}*/
-
-.row#skill {
-    margin-bottom: 100px;
-    margin-top: 100px;
-
-}
-
-/*.row img {*/
-/*    border-radius: 10px;*/
-/*    margin-top: 10px;*/
-/*    margin-left: 10px;*/
-/*}*/
-
-/*.row img:hover{*/
-/*    transform: scale(1.05);*/
-/*    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);*/
-/*}*/
-
-.row #profilstyle {
-    margin-top: 100px;
-}
-
-
-
-/******* Bento's expirementations *******/
-/*body {*/
-/*    background: rgb(15, 15, 15);*/
-/*}*/
+/**************************************/
+/******** EXPERIMENTATIONS ***********/
+/************************************/
 
 .neon {
-    /*position: absolute;*/
-    /*top: 70%;*/
-    /*left: 10%;*/
     width: 300px;
     height: 70px;
-    /*margin: -50px 0 0 -150px;*/
     text-align: center;
     border-radius: 8px;
     border: 3px solid rgb(0, 40, 70);
@@ -205,9 +150,7 @@ p, a, h1, h2, h3, h4, h5, h6, label {
     z-index: 1;
 }
 
-.neon {
-    animation: border-flicker 2s linear forwards;
-}
+.neon { animation: border-flicker 2s linear forwards; }
 
 .neon-text {
     font-family: "Open Sans";
@@ -217,13 +160,9 @@ p, a, h1, h2, h3, h4, h5, h6, label {
     color: rgba(23, 108, 255, 0.5);
 }
 
-.neon .neon-text {
-    animation: text-flicker 2s linear forwards;
-}
+.neon .neon-text { animation: text-flicker 2s linear forwards; }
 
-.neon .first {
-    animation: letter-flicker 3s linear infinite;
-}
+.neon .first { animation: letter-flicker 3s linear infinite; }
 
 @keyframes text-flicker {
     2% {
@@ -409,9 +348,6 @@ p, a, h1, h2, h3, h4, h5, h6, label {
         0 0 12px -1px rgb(0, 180, 230) inset;
     }
 }
-
-
-
 
 
 
