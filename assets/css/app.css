@@ -24,6 +24,16 @@ p, a, h1, h2, h3, h4, h5, h6, label {
     font-family: var(--main-font-family);
 }
 
+footer a { text-decoration: none; color:grey; }
+footer a:hover {
+    background: linear-gradient(to right, var(--gradient-primary-color), var(--gradient-secondary-color));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
 .text-gradient {
     background: linear-gradient(to left, var(--gradient-primary-color), var(--gradient-secondary-color), var(--gradient-primary-color), var(--gradient-secondary-color));
     background-size: 100%;
