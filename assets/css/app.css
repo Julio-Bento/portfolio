@@ -59,9 +59,9 @@ footer a:hover {
 
 ul.navbar-nav {margin-right: 3em;}
 
-a.nav-link { margin: 0 1em 0 1em; }
+a.nav-link { margin: 0 1em 0 1em;}
 
-.active {
+.navbar a {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
@@ -69,8 +69,18 @@ a.nav-link { margin: 0 1em 0 1em; }
     transition: background-size 0.25s ease-in;
 }
 
+.navbar .active {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    color: black !important;
+}
+
 .navbar a:hover {
-    background-size: 100% 50%;
+    background-size: 100% 100%;
+    color: black !important;
 }
 
 /**************************************/
