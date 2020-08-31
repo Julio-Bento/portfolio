@@ -24,10 +24,10 @@ body {
 p, a, h1, h2, h3, h4, h5, h6, label {
     color: var(--main-text-color);
     font-family: var(--main-font-family);
+    text-decoration: none;
 }
 
-footer a { text-decoration: none; color:grey; }
-footer a:hover {
+.gradient-link:hover {
     background: linear-gradient(to right, var(--gradient-primary-color), var(--gradient-secondary-color));
     background-size: 100%;
     -webkit-background-clip: text;
@@ -88,6 +88,7 @@ a.nav-link { margin: 0 1em 0 1em;}
 /**********************************/
 
 .footer { background-color: #101010 !important; }
+footer a { text-decoration: none; color:grey; }
 
 /**************************************/
 /*********** JUMBOTRON **************/
